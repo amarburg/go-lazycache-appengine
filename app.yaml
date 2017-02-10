@@ -1,6 +1,10 @@
-runtime: go
-api_version: go1
+runtime: custom
+env: flex
+service: default
 
-handlers:
-- url: /.*
-  script: _go_app
+resources:
+  cpu: 1
+  memory_gb: 3.5
+
+health_check:
+  enable_health_check: False
