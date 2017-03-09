@@ -1,6 +1,6 @@
 runtime: custom
 env: flex
-service: lazycache
+service: default
 
 env_variables:
   LAZYCACHE_IMAGESTORE: google
